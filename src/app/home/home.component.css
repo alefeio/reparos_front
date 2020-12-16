@@ -1,0 +1,23 @@
+.mg_bottom1{
+    margin-bottom: 0.7rem
+}
+
+.logo{
+    z-index: 100; margin: 1rem;
+}
+
+.redes{
+    z-index: 100; margin: 1rem;
+}
+
+.menos10rem{
+    margin-top: -10rem !important;
+}
+
+@media screen and (max-width: 575px) {
+    .logo{position: relative}
+    .redes{position: relative}
+    .menos10rem{
+        margin-top: 0rem !important;
+    }
+}
